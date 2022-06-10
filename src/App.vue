@@ -52,8 +52,11 @@ export default {
   components: {
     HelloWorld
   },
-  mounted() {
+  created(){
     this.getScreenshot()
+  },
+  mounted() {
+    // this.getScreenshot()
   },
   methods: {
     getScreenshot() {
